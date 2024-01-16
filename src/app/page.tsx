@@ -34,7 +34,7 @@ export default async function Home() {
       <div className="grid grid-cols-3 gap-4">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
-            <CardHeader className="flex-row gap-4 items-center">
+            <CardHeader className="flex-row gap-4 items-center truncate">
               <Avatar>
                 <AvatarImage src={`/img/${recipe.image}`} alt="recipe image" />
                 <AvatarFallback>{recipe.title.slice(0, 2)}</AvatarFallback>
@@ -47,7 +47,7 @@ export default async function Home() {
             <CardContent>
               <p>{recipe.description}</p>
             </CardContent>
-            <CardFooter className="flex justify-between">
+            <CardFooter className="flex justify-between truncate">
               <Button>View Recipe</Button>
               {recipe.vegan && <Badge>Vegan</Badge>}
             </CardFooter>
