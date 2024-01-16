@@ -8,8 +8,14 @@ function SkeletonCard() {
         <Skeleton className="w-12 h-12 rounded-full" />
         <Skeleton className="h-6 flex-grow" />
       </CardHeader>
-      <CardContent></CardContent>
-      <CardFooter></CardFooter>
+      <CardContent>
+        <Skeleton className="h-4 flex-grow mt-4" />
+        <Skeleton className="h-4 flex-grow mt-4" />
+        <Skeleton className="h-4 w-1/2 mt-4" />
+      </CardContent>
+      <CardFooter>
+        <Skeleton className="h-10 w-28" />
+      </CardFooter>
     </Card>
   );
 }
