@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="{inter.className} ml-4 mr-4">
         <ThemeProvider attribute="class" defaultTheme="system">
           <nav className="grid justify-items-stretch ...">
             <div className="justify-self-end">
