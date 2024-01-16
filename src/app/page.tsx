@@ -31,7 +31,7 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-4">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className="flex-row gap-4 items-center">
