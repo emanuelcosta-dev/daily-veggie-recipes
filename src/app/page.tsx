@@ -17,9 +17,11 @@ interface Recipe {
 }
 
 async function getRecipes(): Promise<Recipe[]> {
-  const result = await fetch("http://localhost:4000/recipes");
+  const result = await fetch("https://www.aylins.xyz/db.json");
 
-  return result.json();
+  const responseJson = await result.json();
+
+  return responseJson.recipes;
 }
 
 export default async function Home() {
@@ -35,6 +37,13 @@ export default async function Home() {
                 <CardDescription>{recipe.time} mins to cook</CardDescription>
               </div>
             </CardHeader>
+            <CardContent>
+              <p>{recipe.description}</p>
+            </CardContent>
+            <CardFooter>
+              <button>View Recipe</button>
+              {recipe.vegan && <p>Vegan</p>}
+            </CardFooter>
           </Card>
         ))}
       </div>
