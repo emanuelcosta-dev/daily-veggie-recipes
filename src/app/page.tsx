@@ -21,9 +21,9 @@ interface Recipe {
 
 async function getRecipes(): Promise<Recipe[]> {
   const result = await fetch("https://www.aylins.xyz/db.json");
-
   const responseJson = await result.json();
 
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   return responseJson.recipes;
 }
 
@@ -49,7 +49,7 @@ export default async function Home() {
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button variant="secondary">View Recipe</Button>
-              {recipe.vegan && <Badge>Vegan</Badge>}
+              {recipe.vegan && <Badge variant="secondary">Vegan</Badge>}
             </CardFooter>
           </Card>
         ))}
