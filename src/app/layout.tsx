@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { ModeToggle } from "@/components/ui/modetoggle";
+import Button from "@/components/toggle-button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system">
           <nav className="grid justify-items-stretch ...">
             <div className="justify-self-end">
-              <ModeToggle></ModeToggle>
+              <Button></Button>
             </div>
             <div className="justify-self-start">
               <h1>Recipes</h1>
