@@ -1,0 +1,153 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Carbonara",
+      "image": "veggie_carbonara.jpg",
+      "time": 20,
+      "description": "A vegetarian twist on the classic Italian pasta dish with eggs, cheese, and vegetarian bacon.",
+      "ingredients": "Eggs, cheese, vegetarian bacon, pasta.",
+      "instructions": "Cook pasta according to package instructions. In a bowl, whisk eggs and mix with cheese. In a pan, cook vegetarian bacon until crispy. Combine cooked pasta, egg mixture, and bacon in the pan. Toss until well coated and serve.",
+      "vegan": false
+    },
+    {
+      "id": "2",
+      "title": "Spicy Chickpea Curry",
+      "image": "spicy_chickpea_curry.jpg",
+      "time": 30,
+      "description": "A flavorful and hearty chickpea curry with a kick of spices for a satisfying meal.",
+      "ingredients": "Chickpeas, spices, tomatoes, onions, garlic.",
+      "instructions": "Sauté onions and garlic in a pan. Add spices and cook until fragrant. Pour in tomatoes and chickpeas, simmer until heated through. Adjust seasoning, and serve over rice or with bread.",
+      "vegan": true
+    },
+    {
+      "id": "3",
+      "title": "Mango Avocado Salad",
+      "image": "mango_avocado_salad.jpg",
+      "time": 15,
+      "description": "A refreshing salad combining ripe mangoes, creamy avocados, and a zesty lime dressing.",
+      "ingredients": "Mangoes, avocados, lime, mixed greens.",
+      "instructions": "Dice mangoes and avocados. Toss with mixed greens in a bowl. Squeeze lime juice over the salad. Mix gently and serve chilled.",
+      "vegan": true
+    },
+    {
+      "id": "4",
+      "title": "Grilled Lemon Herb Chicken",
+      "image": "grilled_lemon_herb_chicken.jpg",
+      "time": 25,
+      "description": "Juicy grilled chicken marinated in a blend of lemon, herbs, and garlic for a burst of flavor.",
+      "ingredients": "Chicken, lemon, herbs, garlic.",
+      "instructions": "Marinate chicken in a mixture of lemon, herbs, and garlic. Grill until fully cooked, with a golden crust. Serve hot with your favorite side dishes.",
+      "vegan": false
+    },
+    {
+      "id": "5",
+      "title": "Quinoa Stuffed Bell Peppers",
+      "image": "quinoa_stuffed_bell_peppers.jpg",
+      "time": 40,
+      "description": "Colorful bell peppers filled with a nutritious mixture of quinoa, black beans, and vegetables.",
+      "ingredients": "Quinoa, black beans, bell peppers, vegetables.",
+      "instructions": "Cook quinoa and mix with black beans and vegetables. Cut bell peppers in half, stuff with the quinoa mixture. Bake until peppers are tender. Serve warm.",
+      "vegan": true
+    },
+    {
+      "id": "6",
+      "title": "Pesto Zucchini Noodles",
+      "image": "pesto_zucchini_noodles.jpg",
+      "time": 15,
+      "description": "Spiralized zucchini noodles tossed in a vibrant basil pesto for a light and flavorful dish.",
+      "ingredients": "Zucchini, basil pesto.",
+      "instructions": "Spiralize zucchini into noodles. Toss zucchini noodles with basil pesto. Serve as a light and refreshing dish.",
+      "vegan": true
+    },
+    {
+      "id": "7",
+      "title": "Honey Garlic Salmon",
+      "image": "honey_garlic_salmon.jpg",
+      "time": 25,
+      "description": "Pan-seared salmon glazed with a sweet and savory honey garlic sauce for a delicious seafood experience.",
+      "ingredients": "Salmon, honey, garlic.",
+      "instructions": "Pan-sear salmon until golden. Mix honey and minced garlic for the glaze. Brush glaze over salmon and cook until caramelized. Serve hot.",
+      "vegan": false
+    },
+    {
+      "id": "8",
+      "title": "Caprese Quinoa Salad",
+      "image": "caprese_quinoa_salad.jpg",
+      "time": 20,
+      "description": "A wholesome quinoa salad featuring cherry tomatoes, fresh mozzarella, and basil in a balsamic vinaigrette.",
+      "ingredients": "Quinoa, cherry tomatoes, fresh mozzarella, basil, balsamic vinaigrette.",
+      "instructions": "Cook quinoa and let it cool. Combine quinoa with halved cherry tomatoes, fresh mozzarella, and chopped basil. Drizzle with balsamic vinaigrette. Toss gently and serve."
+    },
+    {
+      "id": "9",
+      "title": "Vegetarian Tacos",
+      "image": "vegetarian_tacos.jpg",
+      "time": 30,
+      "description": "Tasty tacos filled with seasoned black beans, corn, and a variety of colorful vegetables.",
+      "ingredients": "Black beans, corn, taco shells, assorted vegetables.",
+      "instructions": "Sauté vegetables and mix with black beans and corn. Warm taco shells. Fill taco shells with the mixture. Top with your favorite taco toppings.",
+      "vegan": true
+    },
+    {
+      "id": "10",
+      "title": "Lemon Blueberry Pancakes",
+      "image": "lemon_blueberry_pancakes.jpg",
+      "time": 25,
+      "description": "Fluffy pancakes infused with lemon zest and bursting with juicy blueberries for a delightful breakfast treat.",
+      "ingredients": "Pancake mix, lemon zest, blueberries.",
+      "instructions": "Prepare pancake batter and fold in lemon zest and blueberries. Cook pancakes on a griddle until golden. Serve with maple syrup.",
+      "vegan": false
+    },
+    {
+      "id": "11",
+      "title": "Mushroom Risotto",
+      "image": "mushroom_risotto.jpg",
+      "time": 35,
+      "description": "Creamy and savory risotto made with Arborio rice and a medley of sautéed mushrooms.",
+      "ingredients": "Arborio rice, mushrooms, broth, Parmesan cheese.",
+      "instructions": "Sauté mushrooms in a pan until browned. Add Arborio rice and cook until translucent. Gradually add broth, stirring until absorbed. Finish with Parmesan cheese and serve creamy.",
+      "vegan": false
+    },
+    {
+      "id": "12",
+      "title": "Chickpea and Spinach Stew",
+      "image": "chickpea_spinach_stew.jpg",
+      "time": 40,
+      "description": "A hearty stew featuring chickpeas, spinach, and aromatic spices for a comforting meal.",
+      "ingredients": "Chickpeas, spinach, spices, tomatoes, onions.",
+      "instructions": "Sauté onions and spices until fragrant. Add chickpeas, tomatoes, and spinach. Simmer until flavors meld. Serve hot as a comforting stew.",
+      "vegan": true
+    },
+    {
+      "id": "13",
+      "title": "Teriyaki Tofu Stir-Fry",
+      "image": "teriyaki_tofu_stir_fry.jpg",
+      "time": 25,
+      "description": "Quick and flavorful stir-fry with crispy tofu, colorful vegetables, and a homemade teriyaki sauce.",
+      "ingredients": "Tofu, colorful vegetables, teriyaki sauce.",
+      "instructions": "Sauté tofu until golden. Stir-fry colorful vegetables. Pour teriyaki sauce over the mixture. Toss and serve over rice.",
+      "vegan": true
+    },
+    {
+      "id": "14",
+      "title": "Cauliflower Buffalo Wings",
+      "image": "cauliflower_buffalo_wings.jpg",
+      "time": 30,
+      "description": "Spicy and crispy baked cauliflower bites coated in buffalo sauce for a vegetarian twist on wings.",
+      "ingredients": "Cauliflower, buffalo sauce, spices.",
+      "instructions": "Coat cauliflower florets in buffalo sauce. Bake until crispy. Serve with your favorite dipping sauce.",
+      "vegan": true
+    },
+    {
+      "id": "15",
+      "title": "Pineapple Shrimp Skewers",
+      "image": "pineapple_shrimp_skewers.jpg",
+      "time": 20,
+      "description": "Shrimp, pineapple, marinade.",
+      "ingredients": "Marinate shrimp in a zesty marinade. Thread shrimp and pineapple onto skewers. Grill until shrimp are opaque. Serve hot.",
+      "instructions": "",
+      "vegan": false
+    }
+  ]
+}
