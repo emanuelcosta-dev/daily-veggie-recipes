@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Button from "@/components/toggle-button";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,9 @@ export default function RootLayout({
               <Button></Button>
             </div>
             <div className="justify-self-start">
-              <h1>Recipes</h1>
+              <Link href={"/"}>
+                <h1>Recipes</h1>
+              </Link>
             </div>
           </nav>
           {children}
