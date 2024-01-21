@@ -37,6 +37,7 @@ export default async function Home({ params }: { params: { id: string } }) {
         width={500}
         height={500}
         alt="recipe image"
+        loading="lazy"
       />
       <h3>Ingredients</h3>
       <p>{recipe.ingredients}</p>
