@@ -32,14 +32,19 @@ export default async function Home({ params }: { params: { id: string } }) {
     <main>
       <h2>{recipe.title}</h2>
       <p>{recipe.description}</p>
-      <Image
-        src={`/img/${recipe.image}`}
-        height={400}
-        width={400}
-        alt="recipe image"
-        loading="lazy"
-        quality={80}
-      />
+      <div>
+        <p>Blur</p>
+        <div>
+          <Image
+            src={`/img/${recipe.image}`}
+            height={400}
+            width={400}
+            alt="recipe image"
+            loading="lazy"
+            quality={80}
+          />
+        </div>
+      </div>
       <h3>Ingredients</h3>
       <p>{recipe.ingredients}</p>
       <h3>Instructions</h3>
