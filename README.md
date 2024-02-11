@@ -4,7 +4,7 @@ Veggie Recipe List
 
 ## Demo link:
 
-This app is hosted on Vercel [shadcn-crash-course.vercel.app](https://shadcn-crash-course.vercel.app)
+This app is hosted on Vercel [daily-veggie-recipes.vercel.app](https://daily-veggie-recipes.vercel.app)
 
 ## About The App
 
