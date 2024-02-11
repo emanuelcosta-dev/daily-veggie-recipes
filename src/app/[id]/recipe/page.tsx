@@ -2,22 +2,21 @@ import { redirect } from "next/navigation";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { getPlaiceholder } from "plaiceholder";
+import recipesData from "./../../../../_data/updatedDb.json";
 import fs from "fs";
 interface Recipe {
   title: string;
   image: string;
   time: number;
   description: string;
-  vegan: boolean;
+  vegan?: boolean;
   id: string;
   ingredients: string;
   instructions: string;
 }
 
 async function GetRecipeById(recipeId: string): Promise<Recipe> {
-  const result = await fetch("https://www.aylins.xyz/updatedDb.json");
-  const responseJson = await result.json();
-  const recipeList: Recipe[] = await responseJson.recipes;
+  const recipeList: Recipe[] = recipesData.recipes;
   const foundRecipe = recipeList.find((recipe) => recipe.id === recipeId);
 
   if (foundRecipe == null) {

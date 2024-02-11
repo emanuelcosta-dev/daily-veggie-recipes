@@ -10,21 +10,19 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
+import recipesData from "./../../_data/updatedDb.json";
 
 interface Recipe {
   title: string;
   image: string;
   time: number;
   description: string;
-  vegan: boolean;
+  vegan?: boolean;
   id: string;
 }
 
 async function getRecipes(): Promise<Recipe[]> {
-  const result = await fetch("https://www.aylins.xyz/updatedDb.json");
-  const responseJson = await result.json();
-
-  return responseJson.recipes;
+  return recipesData.recipes;
 }
 
 export default async function Home() {
