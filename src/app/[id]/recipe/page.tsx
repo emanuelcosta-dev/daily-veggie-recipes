@@ -22,6 +22,7 @@ async function GetRecipeById(recipeId: string): Promise<Recipe> {
   if (foundRecipe == null) {
     // Redirect to the main page if the recipe is not found
     redirect(`/`);
+    return {} as Recipe;
   }
 
   return foundRecipe;
