@@ -22,7 +22,7 @@ interface Recipe {
 }
 
 async function getRecipes(): Promise<Recipe[]> {
-  return recipesData.recipes;
+  return [...recipesData.recipes];
 }
 
 export default async function Home() {
