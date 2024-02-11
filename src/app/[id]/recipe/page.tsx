@@ -1,9 +1,7 @@
 import { redirect } from "next/navigation";
 import Image from "next/image";
 import styles from "./styles.module.css";
-import { getPlaiceholder } from "plaiceholder";
 import recipesData from "./../../../../_data/updatedDb.json";
-import fs from "fs";
 interface Recipe {
   title: string;
   image: string;
@@ -30,9 +28,6 @@ async function GetRecipeById(recipeId: string): Promise<Recipe> {
 
 export default async function Home({ params }: { params: { id: string } }) {
   const recipe = await GetRecipeById(params.id);
-  const src = `/img/${recipe.image}`;
-  const buffer = await fs.promises.readFile(`./public${src}`);
-  const { base64 } = await getPlaiceholder(buffer);
   return (
     <main>
       <h2>{recipe.title}</h2>
@@ -44,7 +39,6 @@ export default async function Home({ params }: { params: { id: string } }) {
             fill
             alt="recipe image"
             style={{ objectFit: "cover" }}
-            blurDataURL={base64}
             loading="lazy"
             quality={80}
           />
